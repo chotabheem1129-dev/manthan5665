@@ -1,0 +1,42 @@
+class methods
+{
+ public static void main(String [] args)
+ {
+  String S1="Hi";
+  String S2="Hello";
+  System.out.println("The Uppercase:"+toUpperCase());
+  System.out.println("The Lowercase:"+toLowerCase());
+  System.out.println("Replace:"+S2.replace('l','r'));
+  System.out.println("Trim:"+S2.trim());
+  System.out.println("Equals:"+S1.equals(S2));
+  System.out.println("Equals Ignore Case:"+S1.equalsIgnoreCase(S2));
+  System.out.println("Chart At:"+S2.charAt(1));
+  System.out.println("Compare:"+S1.compareTo(S2));
+  System.out.println("Concat:"+S1.concat(S2));
+  System.out.println("Substring:"+S2.subString(1,3));
+  System.out.println("Tostring:"+S2.toString());
+  System.out.println("Index of:"+S2.indexOf('l',3));
+  System.out.println("Index of:"+S1.indexOf('e'));
+  System.out.println("String value of variable:"+String.valueOf(S2));
+  System.out.println("Length:"+S2.length());
+//String Buffer Methods
+  StringBuffer Sb=new StringBuffer("Hello");
+  Sb.append("Java");
+  System.out.println("After append:"+Sb);
+  Sb.insert(2,"Hi");
+  System.out.println("After insert:"+Sb);
+  Sb.serCharAt(y,'x');
+  System.out.println("After SetCharAt:"+Sb);
+  Sb.setLength(6);
+  System.out.println("After Setlength:"+Sb);
+  Sb.reverse();
+  System.out.println("After reverse:"+Sb);
+ }
+}
+  
+   
+  
+  
+   
+   
+  
